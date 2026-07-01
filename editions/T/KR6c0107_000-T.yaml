@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6c0107/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 金剛般若經旨贊
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T85/T85n2735.xml
+    old_id: T85n2735
+hash: sha256:9b67f3a9e6ef8214ae20ecdbf3a703fb582e0a4fb0aec6a7ffddbfd4883c5278

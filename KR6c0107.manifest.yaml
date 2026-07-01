@@ -1,0 +1,57 @@
+canonical_identifier: bkk:krp/KR6c0107/v1
+canonical_location: https://kanripo.org/bkk/KR6c0107/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 金剛般若經旨贊
+  identifiers:
+    alt_id:
+    - T85n2735
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T85/T85n2735.xml
+    old_id: T85n2735
+  edition:
+    short: bkk
+editions:
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: 甲
+  label: 甲
+  source_xml_id: wit1
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6c0107_000.yaml, hash: 'sha256:9b67f3a9e6ef8214ae20ecdbf3a703fb582e0a4fb0aec6a7ffddbfd4883c5278'}
+  - {seq: 1, filename: KR6c0107_001.yaml, hash: 'sha256:17cd487addee089890b6f7cac6efe695c7ce4254f42221da991618e9007834f5'}
+  - {seq: 2, filename: KR6c0107_002.yaml, hash: 'sha256:1c8c58d325fb21d833d0b7fdeeac271ad8a2a1c4d3e9980652b1a5c9a3cca96a'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6c0107_001.markers.yaml, hash: 'sha256:ef92900b17757e9469bae51bb5e472018d2f927d8fe8430aec1a211a53ba8c66'}
+  - {seq: 2, role: markers, filename: assets/KR6c0107_002.markers.yaml, hash: 'sha256:eba7c0e2a065c87cf1e970d42c330b028e8ed2a76d40082d8a2a4b1cf2874bd2'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6c0107_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 29837
+  label: 金剛般若經旨贊卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6c0107_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 27383
+  label: 金剛般若經旨贊卷下
+  type: juan
+  level: 1
+hash: sha256:10fb3d6addff5594ee9e3eba09779194eb258bd6251cc172d3cccf6869859a58
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
